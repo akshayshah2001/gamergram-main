@@ -126,7 +126,7 @@ function Login() {
                         No account?
                     <Link className="link" to="/signup">Signup</Link>
                         <p>
-                            <Link className="link" to="/reset">Forgot Password?</Link>
+                            {/* <Link className="link" to="/reset">Forgot Password?</Link> */}
                         </p>
                     </span>
                 </div>

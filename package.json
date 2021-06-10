@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "gamergram",
+  "description":"SocioBook",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

@@ -106,7 +106,7 @@ function Signup() {
     return (
         <div className="myCard">
             <div className="card authCard">
-                <h2 className="logo">Gamergram</h2>
+                <h2 className="logo">SocioBook</h2>
                 <input
                     onChange={e => setName(e.target.value)}
                     value={name}

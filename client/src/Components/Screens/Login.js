@@ -96,8 +96,8 @@ function Login() {
     return (
         <div className="myCard">
             <div className="card authCard">
-                <h2 className="logo">Gamergram</h2>
-                <div className="google-login">
+                <h2 className="logo">SocioBook</h2>
+                {/* <div className="google-login">
                     <GoogleLogin
                         clientId="552762679533-v5n3kq7efv87jvnk3aht8go8m6di009a.apps.googleusercontent.com"
                         buttonText="Login"
@@ -105,7 +105,7 @@ function Login() {
                         onFailure={responseGoogle}
                         cookiePolicy={'single_host_origin'}
                     />
-                </div>
+                </div> */}
                 
                 <input
                     value={email}

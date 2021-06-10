@@ -89,11 +89,11 @@ router.post('/signup', (req, res) => {
                                 from: "mailtomeghu25@gmail.com",
                                 subject: `Signup successfully!`,
                                 html: `<h3>
-                                Welcome to Gamergram ${user.name}
+                                Welcome to SocioBook ${user.name}
                                 </h3>
                                 <p>Have a wonderful experience with us!</p>
                                 <p>Waiting for you to pen down your first post </p>
-                                <p>Regards Gamergram</p> 
+                                <p>Regards SocioBook</p> 
                                 `
                             })
                             res.json({ message: "User saved successfully" })
@@ -126,7 +126,7 @@ router.post('/reset-password', (req, res) => {
                         transporter.sendMail({
                             to: user.email,
                             from: "mailtomeghu25@gmail.com",
-                            subject: "Password Reset for Gamergram",
+                            subject: "Password Reset for SocioBook",
                             html: `
                     <h4>Password reset for ${user.email}</h4>
                     <p>Hey ${user.name},</p>

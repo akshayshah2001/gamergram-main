@@ -101,7 +101,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="nav-wrapper">
-                <Link to={state ? '/' : '/login'} onClick={handleHome} className="brand-logo left logo">Gamergram</Link>
+                <Link to={state ? '/' : '/login'} onClick={handleHome} className="brand-logo left logo">SocioBook</Link>
                 <div onClick={dropDownHandler} className="settings-icon">
                     <li></li>
                     <li></li>

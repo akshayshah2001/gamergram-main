@@ -92,6 +92,18 @@ function CreatePost() {
                     type="text"
                     placeholder="Caption"
                 />
+                <form>
+                    <div className="radio">
+                        <label class="radioButton">
+                            <input type="radio" value="Public" name = "option" checked={true} />
+                                Public
+                        </label>
+                        <label class="radioButton">
+                            <input type="radio" value="Followers" name = "option"/>
+                                Followers
+                        </label>
+                    </div>
+                </form>
                 <div className="file-field input-field">
                     <div className="btn">
                         <span>File</span>
